@@ -1,10 +1,10 @@
 *{margin: 0%; padding: 0%;box-sizing: border-box;}
-img{max-width: 100%;}
+img{max-width: 100%;height: 100%;}
+/* banner start here */
 
 .banner-color {background-color: #fceef1;
     overflow:hidden;
 }
-
 .banner{max-width: 1400px; margin: auto;}
 
 .left-text {
@@ -39,4 +39,142 @@ img{max-width: 100%;}
     
 }.right-img img {
     margin-bottom: -5px;
+}
+/* banner end here */
+
+
+/* about end here */
+.main-body{overflow: hidden;}
+.top-about {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.delivarybox {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    background-color: #dfdfdf75;
+    padding: 50px 50px;
+    border-radius: 5px;
+}
+.flower {
+    text-align: center;
+}
+.flower img{margin-bottom: 10px;}
+.flower h6 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* about end here */
+.dicount-page {
+    background-color: #f9e8e8;
+    margin: 100px 0px;
+}
+.two-deal-box {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+.left-text-box {
+    text-align: center;
+    padding: 110px 10px;
+    width: 550px;
+}
+.left-text-box h2 {
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.left-text-box p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.left-text-box button {
+    padding: 15px 50px;
+    font-size: 20px;
+    background-color: #d1160f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.right-img-box {
+    margin-left: 110px;
+}
+.rashed{color: red;}
+
+.flower-list-item {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px 100px 0px;
+}
+.deals-img {
+    background-image: url(img/Rectangle\ 9.png);
+    margin-bottom: 50px;
+}
+.Deals-taitle {
+    width: 500px;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.Deals-taitle h1 {
+    margin: 20px;
+    font-size: 40px;
+}
+.Deals-taitle p {
+    font-size: 20px;
+    color: gray;
+}
+.deals-from {
+   
+    padding-bottom: 50px;
+    width: 700px;
+    margin: auto;
+}
+.deals-from input {
+    padding: 20px 250px 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.deals-from button {
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(202, 33, 55);
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.main-footer {
+    background-color: black;
+    padding: 100px 0px;
+}
+.footer-section {
+    text-align: center;
+    margin: 50px 0px;
+}
+.footer-section h1 {
+    font-size: 50px;
+    margin: 35px 0px;
+    color: white;
+}
+.footer-section h1 span {
+    color: tomato;
+}
+.footer-section h6 {
+    font-size: 19px;
+    width: 600px;
+    margin: auto;
+    line-height: 27px;
+    color: white;
+}.footer-section p {
+    color: gray;
+    margin-top: 25px;
 }
